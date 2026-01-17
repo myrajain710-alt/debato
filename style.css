@@ -1,0 +1,37 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+.tagline {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #222;
+  color: white;
+  border: none;
+}
+
+button {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.note {
+  margin-top: 30px;
+  color: #666;
+}
