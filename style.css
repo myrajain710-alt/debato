@@ -1,22 +1,66 @@
 body {
-  background: #111;
-  color: #eee;
-  font-family: Arial, sans-serif;
-  padding: 24px;
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at top, #1c1c1c, #000);
+  color: #fff;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
 }
 
 h1 {
-  margin-bottom: 4px;
+  font-size: 40px;
+  margin-bottom: 8px;
 }
 
 .tagline {
   color: #aaa;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
+}
+
+.composer {
+  background: #111;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
+  flex: 1;
+  background: #1a1a1a;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input::placeholder {
+  color: #666;
+}
+
+button {
+  background: #2563eb;
+  border: none;
+  color: white;
+  padding: 0 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.feed p {
+  background: #0f0f0f;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
   margin-bottom: 10px;
   background: #222;
   color: white;
@@ -35,3 +79,4 @@ button {
   margin-top: 30px;
   color: #666;
 }
+
