@@ -8,14 +8,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Debato</h1>
-  <p class="tagline">Where opinions meet discussion.</p>
+  <div class="app">
+    <h1>Debato</h1>
+    <p class="tagline">Where opinions meet discussion.</p>
 
-  <input placeholder="Share an opinion…" />
-  <button>Post</button>
+    <div class="composer">
+      <input id="opinionInput" placeholder="Share an opinion..." />
+      <button id="postBtn">Post</button>
+    </div>
 
-  <p class="note">(Prototype)</p>
+    <div id="feed" class="feed">
+      <!-- opinions will appear here -->
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
+
 </html>
+
