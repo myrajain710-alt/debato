@@ -60,23 +60,3 @@ button {
   border-radius: 12px;
   margin-bottom: 12px;
 }
-
-  margin-bottom: 10px;
-  background: #222;
-  color: white;
-  border: none;
-}
-
-button {
-  padding: 10px 16px;
-  background: #2563eb;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.note {
-  margin-top: 30px;
-  color: #666;
-}
-
